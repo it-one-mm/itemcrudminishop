@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Item"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Item Name"
+        android:paddingLeft="5dp"
+        android:background="@drawable/edtbg"
+        android:layout_margin="20dp"
+        android:id="@+id/edititemname"
+        />
+    <EditText
+        android:paddingLeft="5dp"
+        android:background="@drawable/edtbg"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Item Name"
+        android:id="@+id/edititempath"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/editsaveitem"
+        android:text="Save"
+        android:drawableLeft="@drawable/ic_save"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:background="@drawable/edtbg"
+        android:backgroundTint="@color/colorSuccess"
+        android:textColor="@color/collorWhite"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/deleteitem"
+        android:text="Delete"
+        android:drawableLeft="@drawable/ic_cancel"
+        android:paddingLeft="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:background="@drawable/edtbg"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/collorWhite"
+        />
+</LinearLayout>

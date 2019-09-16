@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "36162812915",
+    "firebase_url": "https://minishop-a8ede.firebaseio.com",
+    "project_id": "minishop-a8ede",
+    "storage_bucket": "minishop-a8ede.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36162812915:android:723e6c58cf52d0b04eb086",
+        "android_client_info": {
+          "package_name": "com.itonemm.minishop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36162812915-rouvbi6sm2n1t53kr3df9h7ksehk2hi8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itonemm.minishop",
+            "certificate_hash": "bc21fbdff00b72677bdece00b00c2e7be23ee5b4"
+          }
+        },
+        {
+          "client_id": "36162812915-u4u6120cmj7n4fosfqucp8098e2j8pi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-tuiyaGBJFRbytuoIdCZQyFD_R2FQlDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36162812915-u4u6120cmj7n4fosfqucp8098e2j8pi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

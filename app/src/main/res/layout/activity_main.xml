@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Item"
+            android:textColor="@color/colorAccent"
+            android:textSize="50sp"
+
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Item Name"
+            android:paddingLeft="5dp"
+            android:background="@drawable/edtbg"
+            android:layout_margin="20dp"
+            android:id="@+id/itemname"
+            />
+        <EditText
+            android:paddingLeft="5dp"
+            android:background="@drawable/edtbg"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Item Name"
+            android:id="@+id/itempath"
+
+            />
+
+        <Button
+            android:onClick="btnsaveitem"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/saveitem"
+            android:text="Save"
+            android:drawableLeft="@drawable/ic_save"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:background="@drawable/edtbg"
+            android:backgroundTint="@color/colorSuccess"
+            android:textColor="@color/collorWhite"
+            />
+        <Button
+            android:onClick="btncancelitem"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/cancelitem"
+            android:text="Cancel"
+            android:drawableLeft="@drawable/ic_cancel"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:background="@drawable/edtbg"
+            android:backgroundTint="@color/colorAccent"
+            android:textColor="@color/collorWhite"
+            />
+
+        <Button
+            android:onClick="btnloaditem"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/loaditem"
+            android:text="Load Item"
+            android:drawableLeft="@drawable/ic_cancel"
+            android:paddingLeft="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:background="@drawable/edtbg"
+
+            android:textColor="@color/colorBlack"
+            />
+    </LinearLayout>
+</RelativeLayout>
